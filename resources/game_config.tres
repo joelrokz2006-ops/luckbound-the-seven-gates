@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="GameConfigResource" load_steps=2 format=3 uid="uid://e4f5a6b7c8d9"]
+
+[ext_resource type="Script" path="res://scripts/game_config_resource.gd" id="1_config"]
+
+[resource]
+script = ExtResource("1_config")
+max_rounds = 7
+base_reward = 100
+echo_reward = 50
+round_multipliers = Array[float]([1.0, 1.0, 1.25, 1.25, 1.5, 1.5, 2.0])
