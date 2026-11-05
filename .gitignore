@@ -8,8 +8,17 @@
 [Bb]in/
 [Oo]bj/
 
+# Build outputs & packages
+build/
+*.apk
+*.apkm
+*.aab
+*.idsig
+
 # OS and editor files
 .DS_Store
 Thumbs.db
 *.swp
 *.tmp
+.vscode/
+.idea/
